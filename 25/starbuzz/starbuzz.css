@@ -5,13 +5,13 @@ body {
   margin:           0px;
 }
 
-header#top {
+header.top {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
 }
 
-section#main {
+section.blog {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
@@ -57,14 +57,14 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-div.tableContainer {
+div#tableContainer {
   display: table;
 }
 
 div#talbeRow {
   display: table-row;
 }
-#main {
+section.blog {
   display: table-cell;
 }
 
@@ -72,12 +72,12 @@ aside {
   display: table-cell;
 }
 
-div.tableContainer {
+div#tableContainer {
   display: talbe;
   border-spacing: 10px; 
 }
 
-#main {
+.blog {
   display: table-cell;
   vertical-align: top; 
 }
@@ -125,4 +125,43 @@ aside {
 
 .coupon:hover {
 	left: 0px; 
+}
+
+section.main, section.blog {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+
+ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+/*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+
+ul li.selected {
+	background-color: #c8b99c;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
 }
