@@ -5,7 +5,7 @@
 
 .flex{
     display: flex;
-    height: 450px;
+    height: 500px;
     line-height: 1.8;
 }
 
@@ -21,7 +21,7 @@
 .blue {
     color: white;
     background: rgb(10,98,185);
-    height:60px;
+    height: 60px;
 }
 
 .link{
@@ -73,9 +73,10 @@ main{
     margin: 0 auto;
 }
 
-.ml-6 img{
-    margin-top: 200px;
-
+.ml-6{
+    float: left;
+    padding-top: 105px;
+    margin-left: -200px;
 }
 
 
